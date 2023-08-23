@@ -1,0 +1,15 @@
+A class in JavaScript is a blueprint for creating objects. It defines the properties and methods that an object will have.
+
+Here is an example of a class in JavaScript:
+
+class Car {
+  constructor(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+
+  drive() {
+    console.log("The car is driving");
+  }
+}
